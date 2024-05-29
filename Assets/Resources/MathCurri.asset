@@ -1,0 +1,1818 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc00ea77f697153439d704583af72e88, type: 3}
+  m_Name: MathCurri
+  m_EditorClassIdentifier: 
+  Entities:
+  - idx: 0
+    curriculumString: 22ROK
+    grade: 7
+    category: "\uB300\uC218"
+    content: "\uC18C\uC778\uC218\uBD84\uD574"
+    prerequisite: "\uC790\uC5F0\uC218\uC758 \uD63C\uD569 \uACC4\uC0B0"
+  - idx: 1
+    curriculumString: 22ROK
+    grade: 7
+    category: "\uB300\uC218"
+    content: "\uC815\uC218\uC640 \uC720\uB9AC\uC218"
+    prerequisite: "\uC790\uC5F0\uC218\uC758 \uD63C\uD569 \uACC4\uC0B0"
+  - idx: 2
+    curriculumString: 22ROK
+    grade: 7
+    category: "\uB300\uC218"
+    content: "\uBB38\uC790\uC758 \uC0AC\uC6A9"
+    prerequisite: "\uC790\uC5F0\uC218\uC758 \uD63C\uD569 \uACC4\uC0B0"
+  - idx: 3
+    curriculumString: 22ROK
+    grade: 7
+    category: "\uB300\uC218"
+    content: "\uC77C\uCC28\uBC29\uC815\uC2DD"
+    prerequisite: "\uBB38\uC790\uC758 \uC0AC\uC6A9"
+  - idx: 4
+    curriculumString: 22ROK
+    grade: 7
+    category: "\uD574\uC11D"
+    content: "\uC88C\uD45C\uD3C9\uBA74\uACFC \uADF8\uB798\uD504"
+    prerequisite: "\uBB38\uC790\uC758 \uC0AC\uC6A9"
+  - idx: 5
+    curriculumString: 22ROK
+    grade: 7
+    category: "\uAE30\uD558"
+    content: "\uB3C4\uD615 (2)"
+    prerequisite: "\uB3C4\uD615 (1)"
+  - idx: 6
+    curriculumString: 22ROK
+    grade: 7
+    category: "\uAE30\uD558"
+    content: "\uC791\uB3C4\uC640 \uD569\uB3D9"
+    prerequisite: "\uD569\uB3D9\uACFC \uB300\uCE6D"
+  - idx: 7
+    curriculumString: 22ROK
+    grade: 7
+    category: "\uAE30\uD558"
+    content: "\uD3C9\uBA74\uB3C4\uD615 (1)"
+    prerequisite: "\uB3C4\uD615 (2), \uB2E4\uAC01\uD615\uC758 \uB458\uB808\uC640
+      \uB113\uC774"
+  - idx: 8
+    curriculumString: 22ROK
+    grade: 7
+    category: "\uAE30\uD558"
+    content: "\uC785\uCCB4\uB3C4\uD615 (2)"
+    prerequisite: "\uB3C4\uD615 (2), \uC785\uCCB4\uB3C4\uD615 (1)"
+  - idx: 9
+    curriculumString: 22ROK
+    grade: 7
+    category: "\uD1B5\uACC4"
+    content: "\uB300\uD46F\uAC12"
+    prerequisite: "\uC790\uC5F0\uC218\uC758 \uD63C\uD569 \uACC4\uC0B0"
+  - idx: 10
+    curriculumString: 22ROK
+    grade: 7
+    category: "\uD1B5\uACC4"
+    content: "\uB3C4\uC218\uBD84\uD3EC\uD45C"
+    prerequisite: "\uBE44\uC640 \uBE44\uC728 \uBC0F \uBE44\uB840\uC2DD"
+  - idx: 11
+    curriculumString: 22ROK
+    grade: 8
+    category: "\uC0B0\uC218"
+    content: "\uC720\uB9AC\uC218\uC640 \uC21C\uD658\uC18C\uC218"
+    prerequisite: "\uC815\uC218\uC640 \uC720\uB9AC\uC218"
+  - idx: 12
+    curriculumString: 22ROK
+    grade: 8
+    category: "\uB300\uC218"
+    content: "\uC2DD\uC758 \uACC4\uC0B0"
+    prerequisite: "\uC18C\uC778\uC218\uBD84\uD574, \uBB38\uC790\uC758 \uC0AC\uC6A9"
+  - idx: 13
+    curriculumString: 22ROK
+    grade: 8
+    category: "\uB300\uC218"
+    content: "\uC77C\uCC28\uBD80\uB4F1\uC2DD"
+    prerequisite: "\uBB38\uC790\uC758 \uC0AC\uC6A9, \uC218\uC758 \uBC94\uC704\uC640
+      \uC5B4\uB9BC\uD558\uAE30"
+  - idx: 14
+    curriculumString: 22ROK
+    grade: 8
+    category: "\uB300\uC218"
+    content: "\uC5F0\uB9BD\uC77C\uCC28\uBC29\uC815\uC2DD"
+    prerequisite: "\uC77C\uCC28\uBC29\uC815\uC2DD"
+  - idx: 15
+    curriculumString: 22ROK
+    grade: 8
+    category: "\uB300\uC218"
+    content: "\uC5F0\uB9BD\uC77C\uCC28\uBD80\uB4F1\uC2DD"
+    prerequisite: "\uC77C\uCC28\uBD80\uB4F1\uC2DD"
+  - idx: 16
+    curriculumString: 22ROK
+    grade: 8
+    category: "\uD574\uC11D"
+    content: "\uC77C\uCC28\uD568\uC218\uC640 \uADF8\uB798\uD504"
+    prerequisite: "\uC88C\uD45C\uD3C9\uBA74\uACFC \uADF8\uB798\uD504"
+  - idx: 17
+    curriculumString: 22ROK
+    grade: 8
+    category: "\uAE30\uD558"
+    content: "\uD3C9\uBA74\uB3C4\uD615 (2)"
+    prerequisite: "\uD3C9\uBA74\uB3C4\uD615 (1)"
+  - idx: 18
+    curriculumString: 22ROK
+    grade: 8
+    category: "\uAE30\uD558"
+    content: "\uB3C4\uD615\uC758 \uB2EE\uC74C"
+    prerequisite: "\uD3C9\uBA74\uB3C4\uD615 (2)"
+  - idx: 19
+    curriculumString: 22ROK
+    grade: 8
+    category: "\uAE30\uD558"
+    content: "\uD53C\uD0C0\uACE0\uB77C\uC2A4\uC758 \uC815\uB9AC"
+    prerequisite: "\uD3C9\uBA74\uB3C4\uD615 (1)"
+  - idx: 20
+    curriculumString: 22ROK
+    grade: 8
+    category: "\uC870\uD569"
+    content: "\uACBD\uC6B0\uC758 \uC218\uC640 \uD655\uB960"
+    prerequisite: "\uC790\uC5F0\uC218\uC758 \uD63C\uD569 \uACC4\uC0B0"
+  - idx: 21
+    curriculumString: 22ROK
+    grade: 9
+    category: "\uB300\uC218"
+    content: "\uC81C\uACF1\uADFC\uACFC \uC2E4\uC218"
+    prerequisite: "\uC815\uC218\uC640 \uC720\uB9AC\uC218"
+  - idx: 22
+    curriculumString: 22ROK
+    grade: 9
+    category: "\uB300\uC218"
+    content: "\uB2E4\uD56D\uC2DD\uC758 \uACF1\uC148\uACFC \uC778\uC218\uBD84\uD574"
+    prerequisite: "\uC2DD\uC758 \uACC4\uC0B0"
+  - idx: 23
+    curriculumString: 22ROK
+    grade: 9
+    category: "\uB300\uC218"
+    content: "\uC774\uCC28\uBC29\uC815\uC2DD"
+    prerequisite: "\uB2E4\uD56D\uC2DD\uC758 \uACF1\uC148\uACFC \uC778\uC218\uBD84\uD574,
+      \uC81C\uACF1\uADFC\uACFC \uC2E4\uC218"
+  - idx: 24
+    curriculumString: 22ROK
+    grade: 9
+    category: "\uD574\uC11D"
+    content: "\uC774\uCC28\uD568\uC218\uC640 \uADF8\uB798\uD504"
+    prerequisite: "\uC774\uCC28\uBC29\uC815\uC2DD, \uC88C\uD45C\uD3C9\uBA74\uACFC
+      \uADF8\uB798\uD504"
+  - idx: 25
+    curriculumString: 22ROK
+    grade: 9
+    category: "\uAE30\uD558"
+    content: "\uC0BC\uAC01\uBE44"
+    prerequisite: "\uD3C9\uBA74\uB3C4\uD615 (1), \uD53C\uD0C0\uACE0\uB77C\uC2A4\uC758
+      \uC815\uB9AC"
+  - idx: 26
+    curriculumString: 22ROK
+    grade: 9
+    category: "\uAE30\uD558"
+    content: "\uC6D0\uC758 \uC131\uC9C8"
+    prerequisite: "\uD3C9\uBA74\uB3C4\uD615 (1)"
+  - idx: 27
+    curriculumString: 22ROK
+    grade: 10
+    category: "\uB300\uC218"
+    content: "\uBCF5\uC18C\uC218"
+    prerequisite: "\uC81C\uACF1\uADFC\uACFC \uC2E4\uC218"
+  - idx: 28
+    curriculumString: 22ROK
+    grade: 10
+    category: "\uB300\uC218"
+    content: "\uB2E4\uD56D\uC2DD"
+    prerequisite: "\uC2DD\uC758 \uACC4\uC0B0, \uB2E4\uD56D\uC2DD\uC758 \uACF1\uC148\uACFC
+      \uC778\uC218\uBD84\uD574"
+  - idx: 29
+    curriculumString: 22ROK
+    grade: 10
+    category: "\uB300\uC218"
+    content: "\uBC29\uC815\uC2DD\uACFC \uBD80\uB4F1\uC2DD"
+    prerequisite: "\uC774\uCC28\uBC29\uC815\uC2DD, \uC774\uCC28\uD568\uC218\uC640
+      \uADF8\uB798\uD504"
+  - idx: 30
+    curriculumString: 22ROK
+    grade: 10
+    category: "\uC870\uD569"
+    content: "\uACBD\uC6B0\uC758 \uC218 (1)"
+    prerequisite: "\uACBD\uC6B0\uC758 \uC218\uC640 \uD655\uB960"
+  - idx: 31
+    curriculumString: 22ROK
+    grade: 10
+    category: "\uB300\uC218"
+    content: "\uD589\uB82C"
+    prerequisite: "\uC81C\uACF1\uADFC\uACFC \uC2E4\uC218"
+  - idx: 32
+    curriculumString: 22ROK
+    grade: 10
+    category: "\uAE30\uD558"
+    content: "\uB3C4\uD615\uC758 \uBC29\uC815\uC2DD"
+    prerequisite: "\uD3C9\uBA74\uB3C4\uD615 (2), \uC774\uCC28\uD568\uC218\uC640 \uADF8\uB798\uD504"
+  - idx: 33
+    curriculumString: 22ROK
+    grade: 10
+    category: "\uC9D1\uD569\uB860"
+    content: "\uC9D1\uD569"
+    prerequisite: "\uBC29\uC815\uC2DD\uACFC \uBD80\uB4F1\uC2DD"
+  - idx: 34
+    curriculumString: 22ROK
+    grade: 10
+    category: "\uC9D1\uD569\uB860"
+    content: "\uBA85\uC81C"
+    prerequisite: "\uC9D1\uD569"
+  - idx: 35
+    curriculumString: 22ROK
+    grade: 10
+    category: "\uC9D1\uD569\uB860"
+    content: "\uC218\uD559\uC801 \uADC0\uB0A9\uBC95"
+    prerequisite: "\uBA85\uC81C"
+  - idx: 36
+    curriculumString: 22ROK
+    grade: 10
+    category: "\uD574\uC11D"
+    content: "\uD568\uC218\uC640 \uADF8\uB798\uD504"
+    prerequisite: "\uBC29\uC815\uC2DD\uACFC \uBD80\uB4F1\uC2DD, \uC81C\uACF1\uADFC\uACFC
+      \uC2E4\uC218"
+  - idx: 37
+    curriculumString: 22ROK
+    grade: 11
+    category: "\uD574\uC11D"
+    content: "\uC9C0\uC218\uD568\uC218\uC640 \uB85C\uADF8\uD568\uC218"
+    prerequisite: "\uC81C\uACF1\uADFC\uACFC \uC2E4\uC218, \uD568\uC218\uC640 \uADF8\uB798\uD504"
+  - idx: 38
+    curriculumString: 22ROK
+    grade: 11
+    category: "\uD574\uC11D"
+    content: "\uC0BC\uAC01\uD568\uC218"
+    prerequisite: "\uC0BC\uAC01\uBE44, \uD568\uC218\uC640 \uADF8\uB798\uD504"
+  - idx: 39
+    curriculumString: 22ROK
+    grade: 11
+    category: "\uC870\uD569"
+    content: "\uC218\uC5F4"
+    prerequisite: "\uC2DD\uC758 \uACC4\uC0B0, \uD568\uC218\uC640 \uADF8\uB798\uD504"
+  - idx: 40
+    curriculumString: 22ROK
+    grade: 11
+    category: "\uD574\uC11D"
+    content: "\uD568\uC218\uC758 \uADF9\uD55C\uACFC \uC5F0\uC18D"
+    prerequisite: "\uD568\uC218\uC640 \uADF8\uB798\uD504"
+  - idx: 41
+    curriculumString: 22ROK
+    grade: 11
+    category: "\uD574\uC11D"
+    content: "\uBBF8\uBD84"
+    prerequisite: "\uD568\uC218\uC758 \uADF9\uD55C\uACFC \uC5F0\uC18D"
+  - idx: 42
+    curriculumString: 22ROK
+    grade: 11
+    category: "\uD574\uC11D"
+    content: "\uC801\uBD84"
+    prerequisite: "\uBBF8\uBD84"
+  - idx: 43
+    curriculumString: 22ROK
+    grade: 11
+    category: "\uC870\uD569"
+    content: "\uACBD\uC6B0\uC758 \uC218 (2)"
+    prerequisite: "\uACBD\uC6B0\uC758 \uC218 (1)"
+  - idx: 44
+    curriculumString: 22ROK
+    grade: 11
+    category: "\uD1B5\uACC4"
+    content: "\uD655\uB960"
+    prerequisite: "\uACBD\uC6B0\uC758 \uC218 (2)"
+  - idx: 45
+    curriculumString: 22ROK
+    grade: 11
+    category: "\uD1B5\uACC4"
+    content: "\uD1B5\uACC4"
+    prerequisite: "\uD655\uB960, \uC9C0\uC218\uD568\uC218\uC640 \uB85C\uADF8\uD568\uC218"
+  - idx: 46
+    curriculumString: 22ROK
+    grade: 12
+    category: "\uD574\uC11D"
+    content: "\uC774\uCC28\uACE1\uC120"
+    prerequisite: "\uD568\uC218\uC640 \uADF8\uB798\uD504"
+  - idx: 47
+    curriculumString: 22ROK
+    grade: 12
+    category: "\uAE30\uD558"
+    content: "\uACF5\uAC04\uB3C4\uD615\uACFC \uACF5\uAC04\uC88C\uD45C"
+    prerequisite: "\uD568\uC218\uC640 \uADF8\uB798\uD504, \uC785\uCCB4\uB3C4\uD615
+      (2)"
+  - idx: 48
+    curriculumString: 22ROK
+    grade: 12
+    category: "\uB300\uC218"
+    content: "\uBCA1\uD130"
+    prerequisite: "\uACF5\uAC04\uB3C4\uD615\uACFC \uACF5\uAC04\uC88C\uD45C, \uD568\uC218\uC640
+      \uADF8\uB798\uD504"
+  - idx: 49
+    curriculumString: 22ROK
+    grade: 12
+    category: "\uD574\uC11D"
+    content: "\uC218\uC5F4\uC758 \uADF9\uD55C"
+    prerequisite: "\uC218\uC5F4, \uD568\uC218\uC758 \uADF9\uD55C\uACFC \uC5F0\uC18D"
+  - idx: 50
+    curriculumString: 22ROK
+    grade: 12
+    category: "\uD574\uC11D"
+    content: "\uBBF8\uBD84\uBC95 (1)"
+    prerequisite: "\uBBF8\uBD84"
+  - idx: 51
+    curriculumString: 22ROK
+    grade: 12
+    category: "\uD574\uC11D"
+    content: "\uC801\uBD84\uBC95 (1)"
+    prerequisite: "\uBBF8\uBD84\uBC95 (1), \uC801\uBD84"
+  - idx: 52
+    curriculumString: 9ROK
+    grade: 7
+    category: "\uB300\uC218"
+    content: "\uC18C\uC778\uC218\uBD84\uD574"
+    prerequisite: "\uC790\uC5F0\uC218\uC758 \uD63C\uD569 \uACC4\uC0B0"
+  - idx: 53
+    curriculumString: 9ROK
+    grade: 7
+    category: "\uB300\uC218"
+    content: "\uC815\uC218\uC640 \uC720\uB9AC\uC218"
+    prerequisite: "\uC790\uC5F0\uC218\uC758 \uD63C\uD569 \uACC4\uC0B0"
+  - idx: 54
+    curriculumString: 9ROK
+    grade: 7
+    category: "\uB300\uC218"
+    content: "\uBB38\uC790\uC758 \uC0AC\uC6A9"
+    prerequisite: "\uC790\uC5F0\uC218\uC758 \uD63C\uD569 \uACC4\uC0B0"
+  - idx: 55
+    curriculumString: 9ROK
+    grade: 7
+    category: "\uB300\uC218"
+    content: "\uC77C\uCC28\uBC29\uC815\uC2DD"
+    prerequisite: "\uBB38\uC790\uC758 \uC0AC\uC6A9"
+  - idx: 56
+    curriculumString: 9ROK
+    grade: 7
+    category: "\uD574\uC11D"
+    content: "\uC88C\uD45C\uD3C9\uBA74\uACFC \uADF8\uB798\uD504"
+    prerequisite: "\uBB38\uC790\uC758 \uC0AC\uC6A9"
+  - idx: 57
+    curriculumString: 9ROK
+    grade: 7
+    category: "\uAE30\uD558"
+    content: "\uB3C4\uD615 (2)"
+    prerequisite: "\uB3C4\uD615 (1)"
+  - idx: 58
+    curriculumString: 9ROK
+    grade: 7
+    category: "\uAE30\uD558"
+    content: "\uC791\uB3C4\uC640 \uD569\uB3D9"
+    prerequisite: "\uD569\uB3D9\uACFC \uB300\uCE6D"
+  - idx: 59
+    curriculumString: 9ROK
+    grade: 7
+    category: "\uAE30\uD558"
+    content: "\uD3C9\uBA74\uB3C4\uD615 (1)"
+    prerequisite: "\uB3C4\uD615 (2), \uB2E4\uAC01\uD615\uC758 \uB458\uB808\uC640
+      \uB113\uC774"
+  - idx: 60
+    curriculumString: 9ROK
+    grade: 7
+    category: "\uAE30\uD558"
+    content: "\uC785\uCCB4\uB3C4\uD615 (2)"
+    prerequisite: "\uB3C4\uD615 (2), \uC785\uCCB4\uB3C4\uD615 (1)"
+  - idx: 61
+    curriculumString: 9ROK
+    grade: 7
+    category: "\uD1B5\uACC4"
+    content: "\uB300\uD46F\uAC12"
+    prerequisite: "\uC790\uC5F0\uC218\uC758 \uD63C\uD569 \uACC4\uC0B0"
+  - idx: 62
+    curriculumString: 9ROK
+    grade: 7
+    category: "\uD1B5\uACC4"
+    content: "\uB3C4\uC218\uBD84\uD3EC\uD45C"
+    prerequisite: "\uBE44\uC640 \uBE44\uC728 \uBC0F \uBE44\uB840\uC2DD"
+  - idx: 63
+    curriculumString: 9ROK
+    grade: 8
+    category: "\uC0B0\uC218"
+    content: "\uC720\uB9AC\uC218\uC640 \uC21C\uD658\uC18C\uC218"
+    prerequisite: "\uC815\uC218\uC640 \uC720\uB9AC\uC218"
+  - idx: 64
+    curriculumString: 9ROK
+    grade: 8
+    category: "\uB300\uC218"
+    content: "\uC2DD\uC758 \uACC4\uC0B0"
+    prerequisite: "\uC18C\uC778\uC218\uBD84\uD574, \uBB38\uC790\uC758 \uC0AC\uC6A9"
+  - idx: 65
+    curriculumString: 9ROK
+    grade: 8
+    category: "\uB300\uC218"
+    content: "\uC77C\uCC28\uBD80\uB4F1\uC2DD"
+    prerequisite: "\uBB38\uC790\uC758 \uC0AC\uC6A9, \uC218\uC758 \uBC94\uC704\uC640
+      \uC5B4\uB9BC\uD558\uAE30"
+  - idx: 66
+    curriculumString: 9ROK
+    grade: 8
+    category: "\uB300\uC218"
+    content: "\uC5F0\uB9BD\uC77C\uCC28\uBC29\uC815\uC2DD"
+    prerequisite: "\uC77C\uCC28\uBC29\uC815\uC2DD"
+  - idx: 67
+    curriculumString: 9ROK
+    grade: 8
+    category: "\uB300\uC218"
+    content: "\uC5F0\uB9BD\uC77C\uCC28\uBD80\uB4F1\uC2DD"
+    prerequisite: "\uC77C\uCC28\uBD80\uB4F1\uC2DD"
+  - idx: 68
+    curriculumString: 9ROK
+    grade: 8
+    category: "\uD574\uC11D"
+    content: "\uC77C\uCC28\uD568\uC218\uC640 \uADF8\uB798\uD504"
+    prerequisite: "\uC88C\uD45C\uD3C9\uBA74\uACFC \uADF8\uB798\uD504"
+  - idx: 69
+    curriculumString: 9ROK
+    grade: 8
+    category: "\uAE30\uD558"
+    content: "\uD3C9\uBA74\uB3C4\uD615 (2)"
+    prerequisite: "\uD3C9\uBA74\uB3C4\uD615 (1)"
+  - idx: 70
+    curriculumString: 9ROK
+    grade: 8
+    category: "\uAE30\uD558"
+    content: "\uB3C4\uD615\uC758 \uB2EE\uC74C"
+    prerequisite: "\uD3C9\uBA74\uB3C4\uD615 (2)"
+  - idx: 71
+    curriculumString: 9ROK
+    grade: 8
+    category: "\uC870\uD569"
+    content: "\uACBD\uC6B0\uC758 \uC218\uC640 \uD655\uB960"
+    prerequisite: "\uC790\uC5F0\uC218\uC758 \uD63C\uD569 \uACC4\uC0B0"
+  - idx: 72
+    curriculumString: 9ROK
+    grade: 9
+    category: "\uB300\uC218"
+    content: "\uC81C\uACF1\uADFC\uACFC \uC2E4\uC218"
+    prerequisite: "\uC815\uC218\uC640 \uC720\uB9AC\uC218"
+  - idx: 73
+    curriculumString: 9ROK
+    grade: 9
+    category: "\uB300\uC218"
+    content: "\uB2E4\uD56D\uC2DD\uC758 \uACF1\uC148\uACFC \uC778\uC218\uBD84\uD574"
+    prerequisite: "\uC2DD\uC758 \uACC4\uC0B0"
+  - idx: 74
+    curriculumString: 9ROK
+    grade: 9
+    category: "\uB300\uC218"
+    content: "\uC774\uCC28\uBC29\uC815\uC2DD"
+    prerequisite: "\uB2E4\uD56D\uC2DD\uC758 \uACF1\uC148\uACFC \uC778\uC218\uBD84\uD574,
+      \uC81C\uACF1\uADFC\uACFC \uC2E4\uC218"
+  - idx: 75
+    curriculumString: 9ROK
+    grade: 9
+    category: "\uD574\uC11D"
+    content: "\uC774\uCC28\uD568\uC218\uC640 \uADF8\uB798\uD504"
+    prerequisite: "\uC774\uCC28\uBC29\uC815\uC2DD, \uC88C\uD45C\uD3C9\uBA74\uACFC
+      \uADF8\uB798\uD504"
+  - idx: 76
+    curriculumString: 9ROK
+    grade: 9
+    category: "\uAE30\uD558"
+    content: "\uD53C\uD0C0\uACE0\uB77C\uC2A4\uC758 \uC815\uB9AC"
+    prerequisite: "\uD3C9\uBA74\uB3C4\uD615 (1)"
+  - idx: 77
+    curriculumString: 9ROK
+    grade: 9
+    category: "\uAE30\uD558"
+    content: "\uC0BC\uAC01\uBE44"
+    prerequisite: "\uD3C9\uBA74\uB3C4\uD615 (1), \uD53C\uD0C0\uACE0\uB77C\uC2A4\uC758
+      \uC815\uB9AC"
+  - idx: 78
+    curriculumString: 9ROK
+    grade: 9
+    category: "\uAE30\uD558"
+    content: "\uC6D0\uC758 \uC131\uC9C8"
+    prerequisite: "\uD3C9\uBA74\uB3C4\uD615 (1)"
+  - idx: 79
+    curriculumString: 9ROK
+    grade: 10
+    category: "\uB300\uC218"
+    content: "\uBCF5\uC18C\uC218"
+    prerequisite: "\uC81C\uACF1\uADFC\uACFC \uC2E4\uC218"
+  - idx: 80
+    curriculumString: 9ROK
+    grade: 10
+    category: "\uB300\uC218"
+    content: "\uB2E4\uD56D\uC2DD"
+    prerequisite: "\uC2DD\uC758 \uACC4\uC0B0, \uB2E4\uD56D\uC2DD\uC758 \uACF1\uC148\uACFC
+      \uC778\uC218\uBD84\uD574"
+  - idx: 81
+    curriculumString: 9ROK
+    grade: 10
+    category: "\uB300\uC218"
+    content: "\uBC29\uC815\uC2DD\uACFC \uBD80\uB4F1\uC2DD"
+    prerequisite: "\uC774\uCC28\uBC29\uC815\uC2DD, \uC774\uCC28\uD568\uC218\uC640
+      \uADF8\uB798\uD504"
+  - idx: 82
+    curriculumString: 9ROK
+    grade: 10
+    category: "\uD574\uC11D"
+    content: "\uBD80\uB4F1\uC2DD\uC758 \uC601\uC5ED"
+    prerequisite: "\uB3C4\uD615\uC758 \uBC29\uC815\uC2DD"
+  - idx: 83
+    curriculumString: 9ROK
+    grade: 10
+    category: "\uB300\uC218"
+    content: "\uD589\uB82C"
+    prerequisite: "\uC81C\uACF1\uADFC\uACFC \uC2E4\uC218"
+  - idx: 84
+    curriculumString: 9ROK
+    grade: 10
+    category: "\uAE30\uD558"
+    content: "\uB3C4\uD615\uC758 \uBC29\uC815\uC2DD"
+    prerequisite: "\uD3C9\uBA74\uB3C4\uD615 (2), \uC774\uCC28\uD568\uC218\uC640 \uADF8\uB798\uD504"
+  - idx: 85
+    curriculumString: 9ROK
+    grade: 10
+    category: "\uC9D1\uD569\uB860"
+    content: "\uC9D1\uD569"
+    prerequisite: "\uBC29\uC815\uC2DD\uACFC \uBD80\uB4F1\uC2DD"
+  - idx: 86
+    curriculumString: 9ROK
+    grade: 10
+    category: "\uC9D1\uD569\uB860"
+    content: "\uBA85\uC81C"
+    prerequisite: "\uC9D1\uD569"
+  - idx: 87
+    curriculumString: 9ROK
+    grade: 10
+    category: "\uC9D1\uD569\uB860"
+    content: "\uC218\uD559\uC801 \uADC0\uB0A9\uBC95"
+    prerequisite: "\uBA85\uC81C"
+  - idx: 88
+    curriculumString: 9ROK
+    grade: 10
+    category: "\uD574\uC11D"
+    content: "\uD568\uC218\uC640 \uADF8\uB798\uD504"
+    prerequisite: "\uBC29\uC815\uC2DD\uACFC \uBD80\uB4F1\uC2DD, \uC81C\uACF1\uADFC\uACFC
+      \uC2E4\uC218"
+  - idx: 89
+    curriculumString: 9ROK
+    grade: 10
+    category: "\uC870\uD569"
+    content: "\uC218\uC5F4"
+    prerequisite: "\uC2DD\uC758 \uACC4\uC0B0, \uD568\uC218\uC640 \uADF8\uB798\uD504"
+  - idx: 90
+    curriculumString: 9ROK
+    grade: 11
+    category: "\uD574\uC11D"
+    content: "\uC218\uC5F4\uC758 \uADF9\uD55C"
+    prerequisite: "\uC218\uC5F4"
+  - idx: 91
+    curriculumString: 9ROK
+    grade: 11
+    category: "\uD574\uC11D"
+    content: "\uD568\uC218\uC758 \uADF9\uD55C"
+    prerequisite: "\uD568\uC218\uC640 \uADF8\uB798\uD504"
+  - idx: 92
+    curriculumString: 9ROK
+    grade: 11
+    category: "\uD574\uC11D"
+    content: "\uBBF8\uBD84"
+    prerequisite: "\uD568\uC218\uC758 \uADF9\uD55C\uACFC \uC5F0\uC18D"
+  - idx: 93
+    curriculumString: 9ROK
+    grade: 11
+    category: "\uD574\uC11D"
+    content: "\uC801\uBD84"
+    prerequisite: "\uBBF8\uBD84"
+  - idx: 94
+    curriculumString: 9ROK
+    grade: 11
+    category: "\uC870\uD569"
+    content: "\uACBD\uC6B0\uC758 \uC218 (2)"
+    prerequisite: "\uC2DD\uC758 \uACC4\uC0B0"
+  - idx: 95
+    curriculumString: 9ROK
+    grade: 11
+    category: "\uD1B5\uACC4"
+    content: "\uD655\uB960"
+    prerequisite: "\uACBD\uC6B0\uC758 \uC218 (2)"
+  - idx: 96
+    curriculumString: 9ROK
+    grade: 11
+    category: "\uD1B5\uACC4"
+    content: "\uD1B5\uACC4"
+    prerequisite: "\uD655\uB960, \uC9C0\uC218\uD568\uC218\uC640 \uB85C\uADF8\uD568\uC218"
+  - idx: 97
+    curriculumString: 9ROK
+    grade: 12
+    category: "\uD574\uC11D"
+    content: "\uC9C0\uC218\uD568\uC218\uC640 \uB85C\uADF8\uD568\uC218"
+    prerequisite: "\uC81C\uACF1\uADFC\uACFC \uC2E4\uC218, \uD568\uC218\uC640 \uADF8\uB798\uD504"
+  - idx: 98
+    curriculumString: 9ROK
+    grade: 12
+    category: "\uD574\uC11D"
+    content: "\uC0BC\uAC01\uD568\uC218"
+    prerequisite: "\uC0BC\uAC01\uBE44, \uD568\uC218\uC640 \uADF8\uB798\uD504"
+  - idx: 99
+    curriculumString: 9ROK
+    grade: 12
+    category: "\uD574\uC11D"
+    content: "\uBBF8\uBD84\uBC95 (1)"
+    prerequisite: "\uBBF8\uBD84"
+  - idx: 100
+    curriculumString: 9ROK
+    grade: 12
+    category: "\uD574\uC11D"
+    content: "\uC801\uBD84\uBC95 (1)"
+    prerequisite: "\uBBF8\uBD84\uBC95 (1), \uC801\uBD84"
+  - idx: 101
+    curriculumString: 9ROK
+    grade: 12
+    category: "\uD574\uC11D"
+    content: "\uC774\uCC28\uACE1\uC120"
+    prerequisite: "\uD568\uC218\uC640 \uADF8\uB798\uD504"
+  - idx: 102
+    curriculumString: 9ROK
+    grade: 12
+    category: "\uAE30\uD558"
+    content: "\uACF5\uAC04\uB3C4\uD615\uACFC \uACF5\uAC04\uC88C\uD45C"
+    prerequisite: "\uD568\uC218\uC640 \uADF8\uB798\uD504, \uC785\uCCB4\uB3C4\uD615
+      (2)"
+  - idx: 103
+    curriculumString: 9ROK
+    grade: 12
+    category: "\uB300\uC218"
+    content: "\uBCA1\uD130"
+    prerequisite: "\uD568\uC218\uC640 \uADF8\uB798\uD504"
+  - idx: 104
+    curriculumString: 9ROK
+    grade: 12
+    category: "\uB300\uC218"
+    content: "\uACF5\uAC04\uBCA1\uD130"
+    prerequisite: "\uBCA1\uD130, \uACF5\uAC04\uB3C4\uD615\uACFC \uACF5\uAC04\uC88C\uD45C"
+  - idx: 105
+    curriculumString: 10DPRK
+    grade: 7
+    category: "\uC0B0\uC218"
+    content: "\uC790\uC5F0\uC218\uC758 \uD63C\uD569 \uACC4\uC0B0"
+    prerequisite: 
+  - idx: 106
+    curriculumString: 10DPRK
+    grade: 7
+    category: "\uC0B0\uC218"
+    content: "\uC57D\uC218\uC640 \uBC30\uC218"
+    prerequisite: "\uC790\uC5F0\uC218\uC758 \uD63C\uD569 \uACC4\uC0B0"
+  - idx: 107
+    curriculumString: 10DPRK
+    grade: 7
+    category: "\uB300\uC218"
+    content: "\uC18C\uC778\uC218\uBD84\uD574"
+    prerequisite: "\uC790\uC5F0\uC218\uC758 \uD63C\uD569 \uACC4\uC0B0"
+  - idx: 108
+    curriculumString: 10DPRK
+    grade: 7
+    category: "\uC0B0\uC218"
+    content: "\uC815\uC218\uC640 \uC720\uB9AC\uC218"
+    prerequisite: "\uC790\uC5F0\uC218\uC758 \uD63C\uD569 \uACC4\uC0B0"
+  - idx: 109
+    curriculumString: 10DPRK
+    grade: 7
+    category: "\uAE30\uD558"
+    content: "\uB3C4\uD615 (2)"
+    prerequisite: 
+  - idx: 110
+    curriculumString: 10DPRK
+    grade: 7
+    category: "\uB300\uC218"
+    content: "\uBB38\uC790\uC758 \uC0AC\uC6A9"
+    prerequisite: "\uC790\uC5F0\uC218\uC758 \uD63C\uD569 \uACC4\uC0B0"
+  - idx: 111
+    curriculumString: 10DPRK
+    grade: 7
+    category: "\uB300\uC218"
+    content: "\uC77C\uCC28\uBC29\uC815\uC2DD"
+    prerequisite: "\uBB38\uC790\uC758 \uC0AC\uC6A9"
+  - idx: 112
+    curriculumString: 10DPRK
+    grade: 7
+    category: "\uAE30\uD558"
+    content: "\uC791\uB3C4\uC640 \uD569\uB3D9"
+    prerequisite: 
+  - idx: 113
+    curriculumString: 10DPRK
+    grade: 7
+    category: "\uAE30\uD558"
+    content: "\uD3C9\uBA74\uB3C4\uD615 (1)"
+    prerequisite: "\uB3C4\uD615 (2)"
+  - idx: 114
+    curriculumString: 10DPRK
+    grade: 7
+    category: "\uC0B0\uC218"
+    content: "\uC9C4\uBC95"
+    prerequisite: "\uC790\uC5F0\uC218\uC758 \uD63C\uD569 \uACC4\uC0B0"
+  - idx: 115
+    curriculumString: 10DPRK
+    grade: 8
+    category: "\uC9D1\uD569\uB860"
+    content: "\uC9D1\uD569"
+    prerequisite: "\uBB38\uC790\uC758 \uC0AC\uC6A9"
+  - idx: 116
+    curriculumString: 10DPRK
+    grade: 8
+    category: "\uC0B0\uC218"
+    content: "\uBE44\uC640 \uBE44\uC728 \uBC0F \uBE44\uB840\uC2DD"
+    prerequisite: 
+  - idx: 117
+    curriculumString: 10DPRK
+    grade: 8
+    category: "\uD574\uC11D"
+    content: "\uC88C\uD45C\uD3C9\uBA74\uACFC \uADF8\uB798\uD504"
+    prerequisite: "\uBB38\uC790\uC758 \uC0AC\uC6A9"
+  - idx: 118
+    curriculumString: 10DPRK
+    grade: 8
+    category: "\uB300\uC218"
+    content: "\uC77C\uCC28\uBC29\uC815\uC2DD"
+    prerequisite: "\uBB38\uC790\uC758 \uC0AC\uC6A9"
+  - idx: 119
+    curriculumString: 10DPRK
+    grade: 8
+    category: "\uB300\uC218"
+    content: "\uC77C\uCC28\uBD80\uB4F1\uC2DD"
+    prerequisite: "\uBB38\uC790\uC758 \uC0AC\uC6A9"
+  - idx: 120
+    curriculumString: 10DPRK
+    grade: 8
+    category: "\uAE30\uD558"
+    content: "\uD3C9\uBA74\uB3C4\uD615 (2)"
+    prerequisite: "\uD3C9\uBA74\uB3C4\uD615 (1)"
+  - idx: 121
+    curriculumString: 10DPRK
+    grade: 8
+    category: "\uAE30\uD558"
+    content: "\uB3C4\uD615\uC758 \uB2EE\uC74C"
+    prerequisite: "\uD3C9\uBA74\uB3C4\uD615 (2)"
+  - idx: 122
+    curriculumString: 10DPRK
+    grade: 8
+    category: "\uB300\uC218"
+    content: "\uC5F0\uB9BD\uC77C\uCC28\uBC29\uC815\uC2DD"
+    prerequisite: "\uC77C\uCC28\uBC29\uC815\uC2DD"
+  - idx: 123
+    curriculumString: 10DPRK
+    grade: 8
+    category: "\uB300\uC218"
+    content: "\uC5F0\uB9BD\uC77C\uCC28\uBD80\uB4F1\uC2DD"
+    prerequisite: "\uC77C\uCC28\uBD80\uB4F1\uC2DD"
+  - idx: 124
+    curriculumString: 10DPRK
+    grade: 8
+    category: "\uB300\uC218"
+    content: "\uB2E4\uD56D\uC2DD\uC758 \uACF1\uC148\uACFC \uC778\uC218\uBD84\uD574"
+    prerequisite: 
+  - idx: 125
+    curriculumString: 10DPRK
+    grade: 8
+    category: "\uAE30\uD558"
+    content: "\uC785\uCCB4\uB3C4\uD615 (2)"
+    prerequisite: "\uB3C4\uD615 (2)"
+  - idx: 126
+    curriculumString: 10DPRK
+    grade: 9
+    category: "\uC9D1\uD569\uB860"
+    content: "\uBA85\uC81C"
+    prerequisite: "\uC9D1\uD569"
+  - idx: 127
+    curriculumString: 10DPRK
+    grade: 9
+    category: "\uC9D1\uD569\uB860"
+    content: "\uC218\uD559\uC801 \uADC0\uB0A9\uBC95"
+    prerequisite: "\uBA85\uC81C"
+  - idx: 128
+    curriculumString: 10DPRK
+    grade: 9
+    category: "\uAE30\uD558"
+    content: "\uC6D0\uC758 \uC131\uC9C8"
+    prerequisite: "\uD3C9\uBA74\uB3C4\uD615 (1)"
+  - idx: 129
+    curriculumString: 10DPRK
+    grade: 9
+    category: "\uD1B5\uACC4"
+    content: "\uADFC\uC0AC\uAC12"
+    prerequisite: "\uC815\uC218\uC640 \uC720\uB9AC\uC218"
+  - idx: 130
+    curriculumString: 10DPRK
+    grade: 9
+    category: "\uB300\uC218"
+    content: "\uC81C\uACF1\uADFC\uACFC \uC2E4\uC218"
+    prerequisite: "\uC815\uC218\uC640 \uC720\uB9AC\uC218"
+  - idx: 131
+    curriculumString: 10DPRK
+    grade: 9
+    category: "\uAE30\uD558"
+    content: "\uC0BC\uAC01\uBE44"
+    prerequisite: "\uD3C9\uBA74\uB3C4\uD615 (1)"
+  - idx: 132
+    curriculumString: 10DPRK
+    grade: 9
+    category: "\uB300\uC218"
+    content: "\uC774\uCC28\uBC29\uC815\uC2DD"
+    prerequisite: "\uB2E4\uD56D\uC2DD\uC758 \uACF1\uC148\uACFC \uC778\uC218\uBD84\uD574,
+      \uC81C\uACF1\uADFC\uACFC \uC2E4\uC218"
+  - idx: 133
+    curriculumString: 10DPRK
+    grade: 9
+    category: "\uD574\uC11D"
+    content: "\uC77C\uCC28\uD568\uC218\uC640 \uADF8\uB798\uD504"
+    prerequisite: "\uC88C\uD45C\uD3C9\uBA74\uACFC \uADF8\uB798\uD504"
+  - idx: 134
+    curriculumString: 10DPRK
+    grade: 9
+    category: "\uD574\uC11D"
+    content: "\uC774\uCC28\uD568\uC218\uC640 \uADF8\uB798\uD504"
+    prerequisite: "\uC774\uCC28\uBC29\uC815\uC2DD, \uC88C\uD45C\uD3C9\uBA74\uACFC
+      \uADF8\uB798\uD504"
+  - idx: 135
+    curriculumString: 10DPRK
+    grade: 10
+    category: "\uB300\uC218"
+    content: "\uBC29\uC815\uC2DD\uACFC \uBD80\uB4F1\uC2DD"
+    prerequisite: "\uC774\uCC28\uBC29\uC815\uC2DD, \uC774\uCC28\uD568\uC218\uC640
+      \uADF8\uB798\uD504"
+  - idx: 136
+    curriculumString: 10DPRK
+    grade: 10
+    category: "\uD574\uC11D"
+    content: "\uD568\uC218\uC640 \uADF8\uB798\uD504"
+    prerequisite: "\uBC29\uC815\uC2DD\uACFC \uBD80\uB4F1\uC2DD, \uC81C\uACF1\uADFC\uACFC
+      \uC2E4\uC218"
+  - idx: 137
+    curriculumString: 10DPRK
+    grade: 10
+    category: "\uAE30\uD558"
+    content: "\uB3C4\uD615\uC758 \uBC29\uC815\uC2DD"
+    prerequisite: "\uD3C9\uBA74\uB3C4\uD615 (2), \uC774\uCC28\uD568\uC218\uC640 \uADF8\uB798\uD504"
+  - idx: 138
+    curriculumString: 10DPRK
+    grade: 10
+    category: "\uC870\uD569"
+    content: "\uC218\uC5F4"
+    prerequisite: "\uD568\uC218\uC640 \uADF8\uB798\uD504"
+  - idx: 139
+    curriculumString: 10DPRK
+    grade: 11
+    category: "\uD574\uC11D"
+    content: "\uC9C0\uC218\uD568\uC218\uC640 \uB85C\uADF8\uD568\uC218"
+    prerequisite: "\uC81C\uACF1\uADFC\uACFC \uC2E4\uC218, \uD568\uC218\uC640 \uADF8\uB798\uD504"
+  - idx: 140
+    curriculumString: 10DPRK
+    grade: 11
+    category: "\uD574\uC11D"
+    content: "\uC0BC\uAC01\uD568\uC218"
+    prerequisite: "\uC0BC\uAC01\uBE44, \uD568\uC218\uC640 \uADF8\uB798\uD504"
+  - idx: 141
+    curriculumString: 10DPRK
+    grade: 11
+    category: "\uB300\uC218"
+    content: "\uBCF5\uC18C\uC218"
+    prerequisite: "\uC81C\uACF1\uADFC\uACFC \uC2E4\uC218"
+  - idx: 142
+    curriculumString: 10DPRK
+    grade: 11
+    category: "\uAE30\uD558"
+    content: "\uACF5\uAC04\uB3C4\uD615\uACFC \uACF5\uAC04\uC88C\uD45C"
+    prerequisite: "\uD568\uC218\uC640 \uADF8\uB798\uD504, \uC785\uCCB4\uB3C4\uD615
+      (2)"
+  - idx: 143
+    curriculumString: 10DPRK
+    grade: 11
+    category: "\uC870\uD569"
+    content: "\uACBD\uC6B0\uC758 \uC218 (2)"
+    prerequisite: 
+  - idx: 144
+    curriculumString: 10DPRK
+    grade: 11
+    category: "\uB300\uC218"
+    content: "\uD589\uB82C"
+    prerequisite: "\uC81C\uACF1\uADFC\uACFC \uC2E4\uC218"
+  - idx: 145
+    curriculumString: 10DPRK
+    grade: 11
+    category: "\uC9D1\uD569\uB860"
+    content: "\uC9D1\uD569\uACFC \uBA85\uC81C"
+    prerequisite: "\uC9D1\uD569, \uBA85\uC81C"
+  - idx: 146
+    curriculumString: 10DPRK
+    grade: 11
+    category: "\uC9D1\uD569\uB860"
+    content: "\uC218\uD559\uC801 \uADC0\uB0A9\uBC95"
+    prerequisite: "\uC9D1\uD569\uACFC \uBA85\uC81C"
+  - idx: 147
+    curriculumString: 10DPRK
+    grade: 11
+    category: "\uAE30\uD558"
+    content: "\uB3C4\uD615\uC758 \uBCC0\uD658"
+    prerequisite: "\uB3C4\uD615\uC758 \uBC29\uC815\uC2DD, \uD589\uB82C"
+  - idx: 148
+    curriculumString: 10DPRK
+    grade: 12
+    category: "\uB300\uC218"
+    content: "\uBCA1\uD130"
+    prerequisite: "\uACF5\uAC04\uB3C4\uD615\uACFC \uACF5\uAC04\uC88C\uD45C, \uD568\uC218\uC640
+      \uADF8\uB798\uD504"
+  - idx: 149
+    curriculumString: 10DPRK
+    grade: 12
+    category: "\uD574\uC11D"
+    content: "\uD568\uC218\uC758 \uADF9\uD55C\uACFC \uC5F0\uC18D"
+    prerequisite: "\uD568\uC218\uC640 \uADF8\uB798\uD504"
+  - idx: 150
+    curriculumString: 10DPRK
+    grade: 12
+    category: "\uD574\uC11D"
+    content: "\uC218\uC5F4\uC758 \uADF9\uD55C"
+    prerequisite: "\uC218\uC5F4"
+  - idx: 151
+    curriculumString: 10DPRK
+    grade: 12
+    category: "\uD574\uC11D"
+    content: "\uBBF8\uBD84"
+    prerequisite: "\uD568\uC218\uC758 \uADF9\uD55C\uACFC \uC5F0\uC18D"
+  - idx: 152
+    curriculumString: 10DPRK
+    grade: 12
+    category: "\uD574\uC11D"
+    content: "\uBBF8\uBD84\uBC95 (1)"
+    prerequisite: "\uBBF8\uBD84"
+  - idx: 153
+    curriculumString: 10DPRK
+    grade: 12
+    category: "\uD574\uC11D"
+    content: "\uC801\uBD84"
+    prerequisite: "\uBBF8\uBD84"
+  - idx: 154
+    curriculumString: 10DPRK
+    grade: 12
+    category: "\uD574\uC11D"
+    content: "\uC801\uBD84\uBC95 (1)"
+    prerequisite: "\uBBF8\uBD84\uBC95 (1), \uC801\uBD84"
+  - idx: 155
+    curriculumString: 10DPRK
+    grade: 12
+    category: "\uD1B5\uACC4"
+    content: "\uD655\uB960"
+    prerequisite: "\uACBD\uC6B0\uC758 \uC218 (2)"
+  - idx: 156
+    curriculumString: 10DPRK
+    grade: 12
+    category: "\uD1B5\uACC4"
+    content: "\uD1B5\uACC4"
+    prerequisite: "\uD655\uB960, \uC9C0\uC218\uD568\uC218\uC640 \uB85C\uADF8\uD568\uC218"
+  - idx: 157
+    curriculumString: 10DPRK
+    grade: 12
+    category: "\uD1B5\uACC4"
+    content: "\uD1B5\uACC4\uC801 \uCD94\uC815\uACFC \uC608\uCE21"
+    prerequisite: "\uD1B5\uACC4"
+  - idx: 158
+    curriculumString: 90DPRK
+    grade: 7
+    category: "\uC0B0\uC218"
+    content: "\uC790\uC5F0\uC218\uC758 \uD63C\uD569 \uACC4\uC0B0"
+    prerequisite: 
+  - idx: 159
+    curriculumString: 90DPRK
+    grade: 7
+    category: "\uC0B0\uC218"
+    content: "\uBD84\uC218"
+    prerequisite: "\uC790\uC5F0\uC218\uC758 \uD63C\uD569 \uACC4\uC0B0"
+  - idx: 160
+    curriculumString: 90DPRK
+    grade: 7
+    category: "\uC0B0\uC218"
+    content: "\uBD84\uC218\uC758 \uB367\uC148\uACFC \uBE84\uC148"
+    prerequisite: "\uBD84\uC218"
+  - idx: 161
+    curriculumString: 90DPRK
+    grade: 7
+    category: "\uC0B0\uC218"
+    content: "\uBD84\uC218\uC758 \uACF1\uC148\uACFC \uB098\uB217\uC148"
+    prerequisite: "\uBD84\uC218"
+  - idx: 162
+    curriculumString: 90DPRK
+    grade: 7
+    category: "\uC0B0\uC218"
+    content: "\uC57D\uC218\uC640 \uBC30\uC218"
+    prerequisite: "\uC790\uC5F0\uC218\uC758 \uD63C\uD569 \uACC4\uC0B0"
+  - idx: 163
+    curriculumString: 90DPRK
+    grade: 7
+    category: "\uB300\uC218"
+    content: "\uC18C\uC778\uC218\uBD84\uD574"
+    prerequisite: "\uC790\uC5F0\uC218\uC758 \uD63C\uD569 \uACC4\uC0B0"
+  - idx: 164
+    curriculumString: 90DPRK
+    grade: 7
+    category: "\uC0B0\uC218"
+    content: "\uC815\uC218\uC640 \uC720\uB9AC\uC218"
+    prerequisite: "\uC790\uC5F0\uC218\uC758 \uD63C\uD569 \uACC4\uC0B0"
+  - idx: 165
+    curriculumString: 90DPRK
+    grade: 7
+    category: "\uAE30\uD558"
+    content: "\uB3C4\uD615 (2)"
+    prerequisite: 
+  - idx: 166
+    curriculumString: 90DPRK
+    grade: 7
+    category: "\uB300\uC218"
+    content: "\uBB38\uC790\uC758 \uC0AC\uC6A9"
+    prerequisite: "\uC790\uC5F0\uC218\uC758 \uD63C\uD569 \uACC4\uC0B0"
+  - idx: 167
+    curriculumString: 90DPRK
+    grade: 7
+    category: "\uB300\uC218"
+    content: "\uC77C\uCC28\uBC29\uC815\uC2DD"
+    prerequisite: "\uBB38\uC790\uC758 \uC0AC\uC6A9"
+  - idx: 168
+    curriculumString: 90DPRK
+    grade: 7
+    category: "\uAE30\uD558"
+    content: "\uC791\uB3C4\uC640 \uD569\uB3D9"
+    prerequisite: "\uB3C4\uD615 (2)"
+  - idx: 169
+    curriculumString: 90DPRK
+    grade: 7
+    category: "\uAE30\uD558"
+    content: "\uD3C9\uBA74\uB3C4\uD615 (1)"
+    prerequisite: "\uB3C4\uD615 (2)"
+  - idx: 170
+    curriculumString: 90DPRK
+    grade: 7
+    category: "\uC0B0\uC218"
+    content: "\uC9C4\uBC95"
+    prerequisite: "\uC790\uC5F0\uC218\uC758 \uD63C\uD569 \uACC4\uC0B0"
+  - idx: 171
+    curriculumString: 90DPRK
+    grade: 7
+    category: "\uB300\uC218"
+    content: "\uC77C\uCC28\uBC29\uC815\uC2DD"
+    prerequisite: "\uBB38\uC790\uC758 \uC0AC\uC6A9"
+  - idx: 172
+    curriculumString: 90DPRK
+    grade: 7
+    category: "\uB300\uC218"
+    content: "\uC77C\uCC28\uBD80\uB4F1\uC2DD"
+    prerequisite: "\uBB38\uC790\uC758 \uC0AC\uC6A9"
+  - idx: 173
+    curriculumString: 90DPRK
+    grade: 8
+    category: "\uB300\uC218"
+    content: "\uC2DD\uC758 \uACC4\uC0B0"
+    prerequisite: "\uBB38\uC790\uC758 \uC0AC\uC6A9"
+  - idx: 174
+    curriculumString: 90DPRK
+    grade: 8
+    category: "\uD574\uC11D"
+    content: "\uC88C\uD45C\uD3C9\uBA74\uACFC \uADF8\uB798\uD504"
+    prerequisite: "\uC2DD\uC758 \uACC4\uC0B0"
+  - idx: 175
+    curriculumString: 90DPRK
+    grade: 8
+    category: "\uAE30\uD558"
+    content: "\uD3C9\uBA74\uB3C4\uD615 (2)"
+    prerequisite: "\uD3C9\uBA74\uB3C4\uD615 (1)"
+  - idx: 176
+    curriculumString: 90DPRK
+    grade: 8
+    category: "\uB300\uC218"
+    content: "\uC5F0\uB9BD\uC77C\uCC28\uBC29\uC815\uC2DD"
+    prerequisite: "\uC77C\uCC28\uBC29\uC815\uC2DD"
+  - idx: 177
+    curriculumString: 90DPRK
+    grade: 8
+    category: "\uB300\uC218"
+    content: "\uB2E4\uD56D\uC2DD\uC758 \uACF1\uC148\uACFC \uC778\uC218\uBD84\uD574"
+    prerequisite: "\uC2DD\uC758 \uACC4\uC0B0"
+  - idx: 178
+    curriculumString: 90DPRK
+    grade: 8
+    category: "\uAE30\uD558"
+    content: "\uC785\uCCB4\uB3C4\uD615 (2)"
+    prerequisite: "\uB3C4\uD615 (2)"
+  - idx: 179
+    curriculumString: 90DPRK
+    grade: 9
+    category: "\uAE30\uD558"
+    content: "\uC6D0\uC758 \uC131\uC9C8"
+    prerequisite: "\uD3C9\uBA74\uB3C4\uD615 (1)"
+  - idx: 180
+    curriculumString: 90DPRK
+    grade: 9
+    category: "\uB300\uC218"
+    content: "\uBD84\uC218\uC2DD"
+    prerequisite: "\uBD84\uC218, \uC2DD\uC758 \uACC4\uC0B0"
+  - idx: 181
+    curriculumString: 90DPRK
+    grade: 9
+    category: "\uB300\uC218"
+    content: "\uC81C\uACF1\uADFC\uACFC \uC2E4\uC218"
+    prerequisite: "\uC815\uC218\uC640 \uC720\uB9AC\uC218"
+  - idx: 182
+    curriculumString: 90DPRK
+    grade: 9
+    category: "\uB300\uC218"
+    content: "\uC5F0\uB9BD\uC77C\uCC28\uBD80\uB4F1\uC2DD"
+    prerequisite: "\uC77C\uCC28\uBD80\uB4F1\uC2DD"
+  - idx: 183
+    curriculumString: 90DPRK
+    grade: 9
+    category: "\uB300\uC218"
+    content: "\uC774\uCC28\uBC29\uC815\uC2DD"
+    prerequisite: "\uB2E4\uD56D\uC2DD\uC758 \uACF1\uC148\uACFC \uC778\uC218\uBD84\uD574,
+      \uC81C\uACF1\uADFC\uACFC \uC2E4\uC218"
+  - idx: 184
+    curriculumString: 90DPRK
+    grade: 9
+    category: "\uD574\uC11D"
+    content: "\uC77C\uCC28\uD568\uC218\uC640 \uADF8\uB798\uD504"
+    prerequisite: "\uC88C\uD45C\uD3C9\uBA74\uACFC \uADF8\uB798\uD504"
+  - idx: 185
+    curriculumString: 90DPRK
+    grade: 10
+    category: "\uB300\uC218"
+    content: "\uBCF5\uC18C\uC218"
+    prerequisite: "\uC81C\uACF1\uADFC\uACFC \uC2E4\uC218"
+  - idx: 186
+    curriculumString: 90DPRK
+    grade: 10
+    category: "\uD574\uC11D"
+    content: "\uC774\uCC28\uD568\uC218\uC640 \uADF8\uB798\uD504"
+    prerequisite: "\uC774\uCC28\uBC29\uC815\uC2DD, \uC88C\uD45C\uD3C9\uBA74\uACFC
+      \uADF8\uB798\uD504"
+  - idx: 187
+    curriculumString: 90DPRK
+    grade: 10
+    category: "\uB300\uC218"
+    content: "\uBC29\uC815\uC2DD\uACFC \uBD80\uB4F1\uC2DD"
+    prerequisite: "\uC774\uCC28\uBC29\uC815\uC2DD, \uC774\uCC28\uD568\uC218\uC640
+      \uADF8\uB798\uD504"
+  - idx: 188
+    curriculumString: 90DPRK
+    grade: 10
+    category: "\uD574\uC11D"
+    content: "\uD568\uC218\uC640 \uADF8\uB798\uD504"
+    prerequisite: "\uBC29\uC815\uC2DD\uACFC \uBD80\uB4F1\uC2DD, \uC81C\uACF1\uADFC\uACFC
+      \uC2E4\uC218"
+  - idx: 189
+    curriculumString: 90DPRK
+    grade: 10
+    category: "\uC870\uD569"
+    content: "\uC218\uC5F4"
+    prerequisite: "\uD568\uC218\uC640 \uADF8\uB798\uD504"
+  - idx: 190
+    curriculumString: 90DPRK
+    grade: 10
+    category: "\uAE30\uD558"
+    content: "\uC0BC\uAC01\uBE44"
+    prerequisite: "\uD3C9\uBA74\uB3C4\uD615 (1)"
+  - idx: 191
+    curriculumString: 90DPRK
+    grade: 10
+    category: "\uAE30\uD558"
+    content: "\uB3C4\uD615\uC758 \uB2EE\uC74C"
+    prerequisite: "\uD3C9\uBA74\uB3C4\uD615 (2)"
+  - idx: 192
+    curriculumString: 90DPRK
+    grade: 10
+    category: "\uAE30\uD558"
+    content: "\uD53C\uD0C0\uACE0\uB77C\uC2A4\uC758 \uC815\uB9AC"
+    prerequisite: "\uD3C9\uBA74\uB3C4\uD615 (2)"
+  - idx: 193
+    curriculumString: 90DPRK
+    grade: 11
+    category: "\uD574\uC11D"
+    content: "\uC9C0\uC218\uD568\uC218\uC640 \uB85C\uADF8\uD568\uC218"
+    prerequisite: "\uC81C\uACF1\uADFC\uACFC \uC2E4\uC218, \uD568\uC218\uC640 \uADF8\uB798\uD504"
+  - idx: 194
+    curriculumString: 90DPRK
+    grade: 11
+    category: "\uD574\uC11D"
+    content: "\uC0BC\uAC01\uD568\uC218"
+    prerequisite: "\uC0BC\uAC01\uBE44, \uD568\uC218\uC640 \uADF8\uB798\uD504"
+  - idx: 195
+    curriculumString: 90DPRK
+    grade: 11
+    category: "\uB300\uC218"
+    content: "\uBCF5\uC18C\uC218\uC640 \uBCF5\uC18C\uD3C9\uBA74"
+    prerequisite: "\uBCF5\uC18C\uC218, \uC0BC\uAC01\uD568\uC218"
+  - idx: 196
+    curriculumString: 90DPRK
+    grade: 12
+    category: "\uC870\uD569"
+    content: "\uACBD\uC6B0\uC758 \uC218 (2)"
+    prerequisite: "\uACBD\uC6B0\uC758 \uC218 (1)"
+  - idx: 197
+    curriculumString: 90DPRK
+    grade: 12
+    category: "\uC9D1\uD569\uB860"
+    content: "\uBA85\uC81C"
+    prerequisite: "\uC2DD\uC758 \uACC4\uC0B0"
+  - idx: 198
+    curriculumString: 90DPRK
+    grade: 12
+    category: "\uC9D1\uD569\uB860"
+    content: "\uC218\uD559\uC801 \uADC0\uB0A9\uBC95"
+    prerequisite: "\uBA85\uC81C"
+  - idx: 199
+    curriculumString: 90DPRK
+    grade: 12
+    category: "\uAE30\uD558"
+    content: "\uB3C4\uD615\uC758 \uBC29\uC815\uC2DD"
+    prerequisite: "\uD3C9\uBA74\uB3C4\uD615 (2), \uC774\uCC28\uD568\uC218\uC640 \uADF8\uB798\uD504"
+  - idx: 200
+    curriculumString: 90DPRK
+    grade: 12
+    category: "\uAE30\uD558"
+    content: "\uACF5\uAC04\uB3C4\uD615\uACFC \uACF5\uAC04\uC88C\uD45C"
+    prerequisite: "\uD568\uC218\uC640 \uADF8\uB798\uD504, \uC785\uCCB4\uB3C4\uD615
+      (2)"
+  - idx: 201
+    curriculumString: 90DPRK
+    grade: 12
+    category: "\uD574\uC11D"
+    content: "\uD568\uC218\uC758 \uADF9\uD55C\uACFC \uC5F0\uC18D"
+    prerequisite: "\uD568\uC218\uC640 \uADF8\uB798\uD504"
+  - idx: 202
+    curriculumString: 90DPRK
+    grade: 12
+    category: "\uD574\uC11D"
+    content: "\uBBF8\uBD84"
+    prerequisite: "\uD568\uC218\uC758 \uADF9\uD55C\uACFC \uC5F0\uC18D"
+  - idx: 203
+    curriculumString: 90DPRK
+    grade: 12
+    category: "\uD574\uC11D"
+    content: "\uC801\uBD84"
+    prerequisite: "\uBBF8\uBD84"
+  - idx: 204
+    curriculumString: 90DPRK
+    grade: 12
+    category: "\uC804\uC0B0\uD559"
+    content: "\uC54C\uACE0\uB9AC\uC998"
+    prerequisite: 
+  - idx: 205
+    curriculumString: 90DPRK
+    grade: 12
+    category: "\uC804\uC0B0\uD559"
+    content: "\uC21C\uC11C\uB3C4"
+    prerequisite: "\uC54C\uACE0\uB9AC\uC998"
+  - idx: 206
+    curriculumString: 92ROK
+    grade: 7
+    category: "\uC0B0\uC218"
+    content: "\uC57D\uC218\uC640 \uBC30\uC218"
+    prerequisite: "\uC790\uC5F0\uC218\uC758 \uD63C\uD569 \uACC4\uC0B0"
+  - idx: 207
+    curriculumString: 92ROK
+    grade: 7
+    category: "\uB300\uC218"
+    content: "\uC18C\uC778\uC218\uBD84\uD574"
+    prerequisite: "\uC57D\uC218\uC640 \uBC30\uC218"
+  - idx: 208
+    curriculumString: 92ROK
+    grade: 7
+    category: "\uC0B0\uC218"
+    content: "\uC9C4\uBC95"
+    prerequisite: "\uC790\uC5F0\uC218\uC758 \uD63C\uD569 \uACC4\uC0B0"
+  - idx: 209
+    curriculumString: 92ROK
+    grade: 7
+    category: "\uC0B0\uC218"
+    content: "\uC815\uC218\uC640 \uC720\uB9AC\uC218"
+    prerequisite: "\uC790\uC5F0\uC218\uC758 \uD63C\uD569 \uACC4\uC0B0"
+  - idx: 210
+    curriculumString: 92ROK
+    grade: 7
+    category: "\uB300\uC218"
+    content: "\uBB38\uC790\uC758 \uC0AC\uC6A9"
+    prerequisite: "\uC790\uC5F0\uC218\uC758 \uD63C\uD569 \uACC4\uC0B0"
+  - idx: 211
+    curriculumString: 92ROK
+    grade: 7
+    category: "\uB300\uC218"
+    content: "\uC77C\uCC28\uBC29\uC815\uC2DD"
+    prerequisite: "\uBB38\uC790\uC758 \uC0AC\uC6A9"
+  - idx: 212
+    curriculumString: 92ROK
+    grade: 7
+    category: "\uD574\uC11D"
+    content: "\uC88C\uD45C\uD3C9\uBA74\uACFC \uADF8\uB798\uD504"
+    prerequisite: "\uBB38\uC790\uC758 \uC0AC\uC6A9"
+  - idx: 213
+    curriculumString: 92ROK
+    grade: 7
+    category: "\uC9D1\uD569\uB860"
+    content: "\uC9D1\uD569"
+    prerequisite: "\uBB38\uC790\uC758 \uC0AC\uC6A9"
+  - idx: 214
+    curriculumString: 92ROK
+    grade: 7
+    category: "\uD1B5\uACC4"
+    content: "\uB3C4\uC218\uBD84\uD3EC\uD45C"
+    prerequisite: "\uBE44\uC640 \uBE44\uC728 \uBC0F \uBE44\uB840\uC2DD"
+  - idx: 215
+    curriculumString: 92ROK
+    grade: 7
+    category: "\uAE30\uD558"
+    content: "\uB3C4\uD615 (2)"
+    prerequisite: "\uB3C4\uD615 (1)"
+  - idx: 216
+    curriculumString: 92ROK
+    grade: 7
+    category: "\uAE30\uD558"
+    content: "\uC791\uB3C4\uC640 \uD569\uB3D9"
+    prerequisite: "\uB3C4\uD615 (2)"
+  - idx: 217
+    curriculumString: 92ROK
+    grade: 7
+    category: "\uAE30\uD558"
+    content: "\uD3C9\uBA74\uB3C4\uD615 (1)"
+    prerequisite: "\uB3C4\uD615 (2)"
+  - idx: 218
+    curriculumString: 92ROK
+    grade: 7
+    category: "\uAE30\uD558"
+    content: "\uC785\uCCB4\uB3C4\uD615 (1)"
+    prerequisite: "\uD3C9\uBA74\uB3C4\uD615 (1)"
+  - idx: 219
+    curriculumString: 92ROK
+    grade: 7
+    category: "\uC870\uD569"
+    content: "\uADF8\uB798\uD504 \uC774\uB860"
+    prerequisite: "\uC9D1\uD569, \uC790\uC5F0\uC218\uC758 \uD63C\uD569 \uACC4\uC0B0"
+  - idx: 220
+    curriculumString: 92ROK
+    grade: 8
+    category: "\uC0B0\uC218"
+    content: "\uC720\uB9AC\uC218\uC640 \uC21C\uD658\uC18C\uC218"
+    prerequisite: "\uC815\uC218\uC640 \uC720\uB9AC\uC218"
+  - idx: 221
+    curriculumString: 92ROK
+    grade: 8
+    category: "\uB300\uC218"
+    content: "\uC2DD\uC758 \uACC4\uC0B0"
+    prerequisite: "\uBB38\uC790\uC758 \uC0AC\uC6A9"
+  - idx: 222
+    curriculumString: 92ROK
+    grade: 8
+    category: "\uB300\uC218"
+    content: "\uC5F0\uB9BD\uC77C\uCC28\uBC29\uC815\uC2DD"
+    prerequisite: "\uC77C\uCC28\uBC29\uC815\uC2DD"
+  - idx: 223
+    curriculumString: 92ROK
+    grade: 8
+    category: "\uB300\uC218"
+    content: "\uC77C\uCC28\uBD80\uB4F1\uC2DD"
+    prerequisite: "\uBB38\uC790\uC758 \uC0AC\uC6A9"
+  - idx: 224
+    curriculumString: 92ROK
+    grade: 8
+    category: "\uD574\uC11D"
+    content: "\uC77C\uCC28\uD568\uC218\uC640 \uADF8\uB798\uD504"
+    prerequisite: "\uC88C\uD45C\uD3C9\uBA74\uACFC \uADF8\uB798\uD504"
+  - idx: 225
+    curriculumString: 92ROK
+    grade: 8
+    category: "\uC870\uD569"
+    content: "\uACBD\uC6B0\uC758 \uC218 (1)"
+    prerequisite: "\uC790\uC5F0\uC218\uC758 \uD63C\uD569 \uACC4\uC0B0"
+  - idx: 226
+    curriculumString: 92ROK
+    grade: 8
+    category: "\uAE30\uD558"
+    content: "\uD3C9\uBA74\uB3C4\uD615 (2)"
+    prerequisite: "\uD3C9\uBA74\uB3C4\uD615 (1)"
+  - idx: 227
+    curriculumString: 92ROK
+    grade: 8
+    category: "\uAE30\uD558"
+    content: "\uB3C4\uD615\uC758 \uB2EE\uC74C"
+    prerequisite: "\uD3C9\uBA74\uB3C4\uD615 (2)"
+  - idx: 228
+    curriculumString: 92ROK
+    grade: 9
+    category: "\uB300\uC218"
+    content: "\uC81C\uACF1\uADFC\uACFC \uC2E4\uC218"
+    prerequisite: "\uC815\uC218\uC640 \uC720\uB9AC\uC218"
+  - idx: 229
+    curriculumString: 92ROK
+    grade: 9
+    category: "\uB300\uC218"
+    content: "\uB2E4\uD56D\uC2DD\uC758 \uACF1\uC148\uACFC \uC778\uC218\uBD84\uD574"
+    prerequisite: "\uC2DD\uC758 \uACC4\uC0B0"
+  - idx: 230
+    curriculumString: 92ROK
+    grade: 9
+    category: "\uB300\uC218"
+    content: "\uC774\uCC28\uBC29\uC815\uC2DD"
+    prerequisite: "\uB2E4\uD56D\uC2DD\uC758 \uACF1\uC148\uACFC \uC778\uC218\uBD84\uD574,
+      \uC81C\uACF1\uADFC\uACFC \uC2E4\uC218"
+  - idx: 231
+    curriculumString: 92ROK
+    grade: 9
+    category: "\uD574\uC11D"
+    content: "\uC774\uCC28\uD568\uC218\uC640 \uADF8\uB798\uD504"
+    prerequisite: "\uC774\uCC28\uBC29\uC815\uC2DD, \uC88C\uD45C\uD3C9\uBA74\uACFC
+      \uADF8\uB798\uD504"
+  - idx: 232
+    curriculumString: 92ROK
+    grade: 9
+    category: "\uAE30\uD558"
+    content: "\uC0BC\uAC01\uBE44"
+    prerequisite: "\uD3C9\uBA74\uB3C4\uD615 (1), \uD53C\uD0C0\uACE0\uB77C\uC2A4\uC758
+      \uC815\uB9AC"
+  - idx: 233
+    curriculumString: 92ROK
+    grade: 9
+    category: "\uAE30\uD558"
+    content: "\uC6D0\uC758 \uC131\uC9C8"
+    prerequisite: "\uD3C9\uBA74\uB3C4\uD615 (1)"
+  - idx: 234
+    curriculumString: 92ROK
+    grade: 9
+    category: "\uD1B5\uACC4"
+    content: "\uB300\uD46F\uAC12"
+    prerequisite: "\uC790\uC5F0\uC218\uC758 \uD63C\uD569 \uACC4\uC0B0"
+  - idx: 235
+    curriculumString: 92ROK
+    grade: 9
+    category: "\uAE30\uD558"
+    content: "\uD53C\uD0C0\uACE0\uB77C\uC2A4\uC758 \uC815\uB9AC"
+    prerequisite: "\uD3C9\uBA74\uB3C4\uD615 (1)"
+  - idx: 236
+    curriculumString: 92ROK
+    grade: 9
+    category: "\uD1B5\uACC4"
+    content: "\uC0B0\uD3EC\uB3C4\uC640 \uC0C1\uAD00\uD45C"
+    prerequisite: "\uC88C\uD45C\uD3C9\uBA74\uACFC \uADF8\uB798\uD504"
+  - idx: 237
+    curriculumString: 92ROK
+    grade: 9
+    category: "\uAE30\uD558"
+    content: "\uC0BC\uAC01\uBE44"
+    prerequisite: "\uD3C9\uBA74\uB3C4\uD615 (1), \uD53C\uD0C0\uACE0\uB77C\uC2A4\uC758
+      \uC815\uB9AC"
+  - idx: 238
+    curriculumString: 92ROK
+    grade: 9
+    category: "\uAE30\uD558"
+    content: "\uC6D0\uC758 \uC131\uC9C8"
+    prerequisite: "\uD3C9\uBA74\uB3C4\uD615 (1)"
+  - idx: 239
+    curriculumString: 92ROK
+    grade: 10
+    category: "\uC9D1\uD569\uB860"
+    content: "\uBA85\uC81C"
+    prerequisite: "\uC9D1\uD569"
+  - idx: 240
+    curriculumString: 92ROK
+    grade: 10
+    category: "\uD574\uC11D"
+    content: "\uC218 \uCCB4\uACC4"
+    prerequisite: "\uC81C\uACF1\uADFC\uACFC \uC2E4\uC218"
+  - idx: 241
+    curriculumString: 92ROK
+    grade: 10
+    category: "\uB300\uC218"
+    content: "\uBCF5\uC18C\uC218"
+    prerequisite: "\uC81C\uACF1\uADFC\uACFC \uC2E4\uC218"
+  - idx: 242
+    curriculumString: 92ROK
+    grade: 10
+    category: "\uB300\uC218"
+    content: "\uB2E4\uD56D\uC2DD"
+    prerequisite: "\uC2DD\uC758 \uACC4\uC0B0, \uB2E4\uD56D\uC2DD\uC758 \uACF1\uC148\uACFC
+      \uC778\uC218\uBD84\uD574"
+  - idx: 243
+    curriculumString: 92ROK
+    grade: 10
+    category: "\uB300\uC218"
+    content: "\uBC29\uC815\uC2DD\uACFC \uBD80\uB4F1\uC2DD"
+    prerequisite: "\uC774\uCC28\uBC29\uC815\uC2DD, \uC774\uCC28\uD568\uC218\uC640
+      \uADF8\uB798\uD504"
+  - idx: 244
+    curriculumString: 92ROK
+    grade: 10
+    category: "\uB300\uC218"
+    content: "\uBD80\uB4F1\uC2DD\uC758 \uC601\uC5ED"
+    prerequisite: "\uB3C4\uD615\uC758 \uBC29\uC815\uC2DD"
+  - idx: 245
+    curriculumString: 92ROK
+    grade: 10
+    category: "\uAE30\uD558"
+    content: "\uB3C4\uD615\uC758 \uBC29\uC815\uC2DD"
+    prerequisite: "\uD3C9\uBA74\uB3C4\uD615 (2), \uC774\uCC28\uD568\uC218\uC640 \uADF8\uB798\uD504"
+  - idx: 246
+    curriculumString: 92ROK
+    grade: 10
+    category: "\uAE30\uD558"
+    content: "\uB3C4\uD615\uC758 \uBCC0\uD658"
+    prerequisite: "\uB3C4\uD615\uC758 \uBC29\uC815\uC2DD"
+  - idx: 247
+    curriculumString: 92ROK
+    grade: 10
+    category: "\uD574\uC11D"
+    content: "\uD568\uC218\uC640 \uADF8\uB798\uD504"
+    prerequisite: "\uBC29\uC815\uC2DD\uACFC \uBD80\uB4F1\uC2DD, \uC81C\uACF1\uADFC\uACFC
+      \uC2E4\uC218"
+  - idx: 248
+    curriculumString: 92ROK
+    grade: 10
+    category: "\uD574\uC11D"
+    content: "\uC9C0\uC218\uD568\uC218\uC640 \uB85C\uADF8\uD568\uC218"
+    prerequisite: "\uC81C\uACF1\uADFC\uACFC \uC2E4\uC218, \uD568\uC218\uC640 \uADF8\uB798\uD504"
+  - idx: 249
+    curriculumString: 92ROK
+    grade: 10
+    category: "\uD574\uC11D"
+    content: "\uC0BC\uAC01\uD568\uC218"
+    prerequisite: "\uC0BC\uAC01\uBE44, \uD568\uC218\uC640 \uADF8\uB798\uD504"
+  - idx: 250
+    curriculumString: 92ROK
+    grade: 11
+    category: "\uB300\uC218"
+    content: "\uD589\uB82C"
+    prerequisite: "\uC81C\uACF1\uADFC\uACFC \uC2E4\uC218"
+  - idx: 251
+    curriculumString: 92ROK
+    grade: 11
+    category: "\uB300\uC218"
+    content: "\uD589\uB82C\uACFC \uC5F0\uB9BD\uC77C\uCC28\uBC29\uC815\uC2DD"
+    prerequisite: "\uC5F0\uB9BD\uC77C\uCC28\uBC29\uC815\uC2DD, \uD589\uB82C"
+  - idx: 252
+    curriculumString: 92ROK
+    grade: 11
+    category: "\uC870\uD569"
+    content: "\uC218\uC5F4"
+    prerequisite: "\uD568\uC218\uC640 \uADF8\uB798\uD504"
+  - idx: 253
+    curriculumString: 92ROK
+    grade: 11
+    category: "\uC9D1\uD569\uB860"
+    content: "\uC218\uD559\uC801 \uADC0\uB0A9\uBC95"
+    prerequisite: "\uBA85\uC81C"
+  - idx: 254
+    curriculumString: 92ROK
+    grade: 11
+    category: "\uC804\uC0B0\uD559"
+    content: "\uC54C\uACE0\uB9AC\uC998"
+    prerequisite: 
+  - idx: 255
+    curriculumString: 92ROK
+    grade: 11
+    category: "\uC804\uC0B0\uD559"
+    content: "\uC21C\uC11C\uB3C4"
+    prerequisite: "\uC54C\uACE0\uB9AC\uC998"
+  - idx: 256
+    curriculumString: 92ROK
+    grade: 11
+    category: "\uD574\uC11D"
+    content: "\uC218\uC5F4\uC758 \uADF9\uD55C"
+    prerequisite: "\uC218\uC5F4"
+  - idx: 257
+    curriculumString: 92ROK
+    grade: 11
+    category: "\uD574\uC11D"
+    content: "\uD568\uC218\uC758 \uADF9\uD55C\uACFC \uC5F0\uC18D"
+    prerequisite: "\uD568\uC218\uC640 \uADF8\uB798\uD504"
+  - idx: 258
+    curriculumString: 92ROK
+    grade: 11
+    category: "\uD574\uC11D"
+    content: "\uBBF8\uBD84"
+    prerequisite: "\uD568\uC218\uC758 \uADF9\uD55C\uACFC \uC5F0\uC18D"
+  - idx: 259
+    curriculumString: 92ROK
+    grade: 11
+    category: "\uD574\uC11D"
+    content: "\uC801\uBD84"
+    prerequisite: "\uBBF8\uBD84"
+  - idx: 260
+    curriculumString: 92ROK
+    grade: 11
+    category: "\uC870\uD569"
+    content: "\uACBD\uC6B0\uC758 \uC218 (2)"
+    prerequisite: "\uACBD\uC6B0\uC758 \uC218 (1)"
+  - idx: 261
+    curriculumString: 92ROK
+    grade: 11
+    category: "\uD1B5\uACC4"
+    content: "\uD655\uB960"
+    prerequisite: "\uACBD\uC6B0\uC758 \uC218 (2)"
+  - idx: 262
+    curriculumString: 92ROK
+    grade: 11
+    category: "\uD1B5\uACC4"
+    content: "\uD1B5\uACC4"
+    prerequisite: "\uD655\uB960, \uC9C0\uC218\uD568\uC218\uC640 \uB85C\uADF8\uD568\uC218"
+  - idx: 263
+    curriculumString: 92ROK
+    grade: 11
+    category: "\uD1B5\uACC4"
+    content: "\uD1B5\uACC4\uC801 \uCD94\uC815\uACFC \uC608\uCE21"
+    prerequisite: "\uD1B5\uACC4"
+  - idx: 264
+    curriculumString: 92ROK
+    grade: 11
+    category: "\uB300\uC218"
+    content: "\uBD84\uC218\uBC29\uC815\uC2DD\uACFC \uBB34\uB9AC\uBC29\uC815\uC2DD"
+    prerequisite: "\uBC29\uC815\uC2DD\uACFC \uBD80\uB4F1\uC2DD, \uD568\uC218\uC640
+      \uADF8\uB798\uD504"
+  - idx: 265
+    curriculumString: 92ROK
+    grade: 11
+    category: "\uB300\uC218"
+    content: "\uACE0\uCC28\uBD80\uB4F1\uC2DD\uACFC \uBD84\uC218\uBD80\uB4F1\uC2DD"
+    prerequisite: "\uBC29\uC815\uC2DD\uACFC \uBD80\uB4F1\uC2DD, \uD568\uC218\uC640
+      \uADF8\uB798\uD504"
+  - idx: 266
+    curriculumString: 92ROK
+    grade: 11
+    category: "\uB300\uC218"
+    content: "\uC77C\uCC28\uBCC0\uD658\uACFC \uD589\uB82C"
+    prerequisite: "\uD589\uB82C\uACFC \uC5F0\uB9BD\uC77C\uCC28\uBC29\uC815\uC2DD"
+  - idx: 267
+    curriculumString: 92ROK
+    grade: 11
+    category: "\uB300\uC218"
+    content: "\uBCF5\uC18C\uC218\uC640 \uBCF5\uC18C\uD3C9\uBA74"
+    prerequisite: "\uBCF5\uC18C\uC218, \uC0BC\uAC01\uD568\uC218"
+  - idx: 268
+    curriculumString: 92ROK
+    grade: 11
+    category: "\uD574\uC11D"
+    content: "\uBBF8\uBD84\uBC95 (1)"
+    prerequisite: "\uBBF8\uBD84"
+  - idx: 269
+    curriculumString: 92ROK
+    grade: 11
+    category: "\uD574\uC11D"
+    content: "\uC801\uBD84\uBC95 (1)"
+    prerequisite: "\uBBF8\uBD84\uBC95 (1), \uC801\uBD84"
+  - idx: 270
+    curriculumString: 92ROK
+    grade: 11
+    category: "\uD574\uC11D"
+    content: "\uC774\uCC28\uACE1\uC120"
+    prerequisite: "\uD568\uC218\uC640 \uADF8\uB798\uD504"
+  - idx: 271
+    curriculumString: 92ROK
+    grade: 11
+    category: "\uAE30\uD558"
+    content: "\uACF5\uAC04\uB3C4\uD615\uACFC \uACF5\uAC04\uC88C\uD45C"
+    prerequisite: "\uD568\uC218\uC640 \uADF8\uB798\uD504, \uC785\uCCB4\uB3C4\uD615
+      (2)"
+  - idx: 272
+    curriculumString: 92ROK
+    grade: 11
+    category: "\uB300\uC218"
+    content: "\uBCA1\uD130"
+    prerequisite: "\uACF5\uAC04\uB3C4\uD615\uACFC \uACF5\uAC04\uC88C\uD45C, \uD568\uC218\uC640
+      \uADF8\uB798\uD504"
+  - idx: 273
+    curriculumString: 92ROK
+    grade: 11
+    category: "\uB300\uC218"
+    content: "\uACF5\uAC04\uBCA1\uD130"
+    prerequisite: "\uBCA1\uD130, \uACF5\uAC04\uB3C4\uD615\uACFC \uACF5\uAC04\uC88C\uD45C"
+  - idx: 274
+    curriculumString: 92ROK
+    grade: 12
+    category: "\uB300\uC218"
+    content: "\uAD70"
+    prerequisite: "\uC9D1\uD569"
+  - idx: 275
+    curriculumString: 92ROK
+    grade: 12
+    category: "\uB300\uC218"
+    content: "\uD589\uB82C\uACFC \uBCA1\uD130"
+    prerequisite: "\uC77C\uCC28\uBCC0\uD658\uACFC \uD589\uB82C, \uACF5\uAC04\uBCA1\uD130"
+  - idx: 276
+    curriculumString: 92ROK
+    grade: 12
+    category: "\uB300\uC218"
+    content: "\uC120\uD615\uBCC0\uD658"
+    prerequisite: "\uD589\uB82C\uACFC \uBCA1\uD130"
+  - idx: 277
+    curriculumString: 92ROK
+    grade: 12
+    category: "\uC9D1\uD569\uB860"
+    content: "\uB17C\uC99D\uACFC \uCD94\uB860"
+    prerequisite: "\uBA85\uC81C"
+  - idx: 278
+    curriculumString: 92ROK
+    grade: 12
+    category: "\uAE30\uD558"
+    content: "\uC791\uB3C4\uC640 \uC790\uCDE8"
+    prerequisite: "\uAD70, \uD3C9\uBA74\uB3C4\uD615 (2), \uC791\uB3C4\uC640 \uD569\uB3D9,
+      \uD568\uC218\uC640 \uADF8\uB798\uD504"
+  - idx: 279
+    curriculumString: 92ROK
+    grade: 12
+    category: "\uD574\uC11D"
+    content: "\uADF9\uC88C\uD45C\uC640 \uADF9\uBC29\uC815\uC2DD"
+    prerequisite: "\uC0BC\uAC01\uD568\uC218, \uD568\uC218\uC640 \uADF8\uB798\uD504"
+  - idx: 280
+    curriculumString: 92ROK
+    grade: 12
+    category: "\uD574\uC11D"
+    content: "\uBCF5\uC18C\uC218\uC758 \uADF9\uD615\uC2DD\uACFC \uC6D0\uC2DC\uADFC"
+    prerequisite: "\uBCF5\uC18C\uC218\uC640 \uBCF5\uC18C\uD3C9\uBA74, \uADF9\uC88C\uD45C\uC640
+      \uADF9\uBC29\uC815\uC2DD"
+  - idx: 281
+    curriculumString: 92ROK
+    grade: 12
+    category: "\uAE30\uD558"
+    content: "\uC774\uCC28\uACE1\uBA74"
+    prerequisite: "\uACF5\uAC04\uB3C4\uD615\uACFC \uACF5\uAC04\uC88C\uD45C"
+  - idx: 282
+    curriculumString: 92ROK
+    grade: 12
+    category: "\uD574\uC11D"
+    content: "\uBBF8\uBD84\uBC95 (2)"
+    prerequisite: "\uBBF8\uBD84\uBC95 (1)"
+  - idx: 283
+    curriculumString: 92ROK
+    grade: 12
+    category: "\uD574\uC11D"
+    content: "\uD14C\uC77C\uB7EC \uAE09\uC218"
+    prerequisite: "\uBBF8\uBD84\uBC95 (2)"
+  - idx: 284
+    curriculumString: 92ROK
+    grade: 12
+    category: "\uD574\uC11D"
+    content: "\uD3B8\uBBF8\uBD84\uACFC gradient"
+    prerequisite: "\uBBF8\uBD84\uBC95 (2)"
+  - idx: 285
+    curriculumString: 92ROK
+    grade: 12
+    category: "\uD574\uC11D"
+    content: "\uC774\uBCC0\uC218\uD568\uC218\uC640 \uADF9\uD55C"
+    prerequisite: "\uD3B8\uBBF8\uBD84\uACFC gradient"
+  - idx: 286
+    curriculumString: 92ROK
+    grade: 12
+    category: "\uD574\uC11D"
+    content: "\uC801\uBD84\uBC95 (2)"
+    prerequisite: "\uD568\uC218\uC758 \uADF9\uD55C\uACFC \uC5F0\uC18D, \uC801\uBD84\uBC95
+      (1)"
+  - idx: 287
+    curriculumString: 92ROK
+    grade: 12
+    category: "\uD574\uC11D"
+    content: "\uBBF8\uBD84\uBC29\uC815\uC2DD"
+    prerequisite: "\uBBF8\uBD84\uBC95 (2), \uC801\uBD84\uBC95 (2)"
+  - idx: 288
+    curriculumString: 92ROK
+    grade: 12
+    category: "\uD1B5\uACC4"
+    content: "\uBCA0\uC774\uC988 \uC815\uB9AC"
+    prerequisite: "\uD655\uB960"
+  - idx: 289
+    curriculumString: 92ROK
+    grade: 12
+    category: "\uD1B5\uACC4"
+    content: "\uD655\uB960\uBD84\uD3EC"
+    prerequisite: "\uD1B5\uACC4"
+  - idx: 290
+    curriculumString: 92ROK
+    grade: 12
+    category: "\uD1B5\uACC4"
+    content: "\uD1B5\uACC4\uB7C9\uACFC \uCD94\uC815"
+    prerequisite: "\uD1B5\uACC4\uC801 \uCD94\uC815\uACFC \uC608\uCE21, \uC801\uBD84\uBC95
+      (2)"
+  - idx: 291
+    curriculumString: 92ROK
+    grade: 12
+    category: "\uD1B5\uACC4"
+    content: "\uB9C8\uB974\uCF54\uD504 \uCCB4\uC778"
+    prerequisite: "\uC120\uD615\uBCC0\uD658, \uD655\uB960\uBD84\uD3EC"
+  - idx: 292
+    curriculumString: 92ROK
+    grade: 12
+    category: "\uD1B5\uACC4"
+    content: "\uAC00\uC124\uAC80\uC815"
+    prerequisite: "\uD1B5\uACC4\uB7C9\uACFC \uCD94\uC815"
