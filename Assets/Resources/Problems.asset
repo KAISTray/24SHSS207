@@ -15,3 +15,49 @@ MonoBehaviour:
   problems:
   - path: p1
     content: "\uC18C\uC778\uC218\uBD84\uD574"
+  - path: p2
+    content: "\uC815\uC218\uC640 \uC720\uB9AC\uC218"
+  - path: p3
+    content: "\uC5F0\uB9BD\uC77C\uCC28\uBC29\uC815\uC2DD"
+  - path: p4
+    content: "\uC791\uB3C4\uC640 \uD569\uB3D9"
+  - path: p5
+    content: "\uACBD\uC6B0\uC758 \uC218\uC640 \uD655\uB960"
+  - path: p6
+    content: "\uC9C4\uBC95"
+  - path: p7
+    content: "\uC9D1\uD569"
+  - path: p8
+    content: "\uD589\uB82C"
+  - path: p9
+    content: "\uC77C\uCC28\uD568\uC218\uC640 \uADF8\uB798\uD504"
+  - path: p10
+    content: "\uD53C\uD0C0\uACE0\uB77C\uC2A4\uC758 \uC815\uB9AC"
+  - path: p11
+    content: "\uC0BC\uAC01\uBE44"
+  - path: p12
+    content: "\uC218\uD559\uC801 \uADC0\uB0A9\uBC95"
+  - path: p13
+    content: "\uC0BC\uAC01\uD568\uC218"
+  - path: p14
+    content: "\uC9C0\uC218\uD568\uC218\uC640 \uB85C\uADF8\uD568\uC218"
+  - path: p15
+    content: "\uB3C4\uD615\uC758 \uBC29\uC815\uC2DD"
+  - path: p16
+    content: "\uC218\uC5F4"
+  - path: p17
+    content: "\uD1B5\uACC4"
+  - path: p17
+    content: "\uD1B5\uACC4"
+  - path: p18
+    content: "\uC218\uC5F4\uC758 \uADF9\uD55C"
+  - path: p19
+    content: "\uBBF8\uBD84"
+  - path: p20
+    content: "\uBCA1\uD130"
+  - path: p21
+    content: "\uBCF5\uC18C\uC218\uC640 \uBCF5\uC18C\uD3C9\uBA74"
+  - path: p22
+    content: "\uAD70"
+  - path: p23
+    content: "\uD3B8\uBBF8\uBD84\uACFC gradient"
